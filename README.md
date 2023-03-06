@@ -1,5 +1,8 @@
 # Registration-and-loginform
 Form Validation with login and registration form
+Live Link - https://pranaydwivedi444.github.io/Registration-and-loginform/
+![image](https://user-images.githubusercontent.com/48515987/223234780-30d7af30-3fab-4aeb-a410-5f99ae65ac32.png)
+
 ## Sign Up and Sign In Web Page
 This is an HTML code for a web page that contains two forms, one for Sign Up and the other for Sign In. The web page includes various input fields, labels, and buttons that are styled using CSS and Font Awesome. The page also includes JavaScript code for showing and hiding passwords when the user clicks on the eye icon.
 
