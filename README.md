@@ -29,7 +29,7 @@ Both forms include a password input field with an eye icon that, when clicked, t
 Both forms have validation implemented using JavaScript. When the user submits the Sign Up form, the JavaScript code checks that all the input fields are filled, that the email address is valid, that the password is at least 8 characters long, and that the password confirmation matches the password. If any of these conditions are not met, an error message is displayed below the corresponding input field.
 
 When the user submits the Sign In form, the JavaScript code checks that both the email and password fields are filled. If either of these conditions is not met, an error message is displayed below the corresponding input field.
-
+## Responsive
 ## Styling
 The web page is styled using CSS and Font Awesome. The CSS file contains various styles for the form, input fields, labels, and buttons. The Font Awesome icons are used to style the input fields.
 
