@@ -132,3 +132,10 @@ i {
 .hidden {
   display: none;
 }
+
+footer p {
+  text-align: center;
+  margin: 0.5rem;
+  margin-left: 7rem;
+  color: rgb(0, 224, 0);
+}
