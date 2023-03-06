@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form SignUp</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="outer-container">
+      <div class="inner-container hidden registration">
+        <header>
+          <h1 class="form-title">SignUp</h1>
+          <p>It just takes 30s</p>
+        </header>
+        <div class="form-body">
+          <div class="input_forms">
+            <i class="fa fa-user icon"></i>
+            <label for="fullname">Full Name</label>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              id="full_name"
+              required
+            />
+            <p class="error"></p>
+          </div>
+          <div class="input_forms">
+            <i class="fa fa-envelope icon"></i>
+            <label for="Email">Your Email</label>
+            <input
+              type="text"
+              placeholder="Enter your Email"
+              id="email_id"
+              required
+            />
+            <p class="error"></p>
+          </div>
+          <div class="input_forms">
+            <i class="fa fa-lock icon"></i>
+            <label for="Password">Your New Password</label>
+            <input
+              type="text"
+              placeholder="Enter your Password"
+              id="password"
+              required
+            />
+            <i class="fa fa-eye-slash show_pass"></i>
+            <i class="hidden fa-eye show_pass"></i>
+            <p class="error"></p>
+          </div>
+          <div class="input_forms">
+            <i class="fa fa-lock icon"></i>
+            <label for="Password">Type your password again</label>
+            <input
+              type="text"
+              placeholder="Enter your Password"
+              id="repeat_password"
+              required
+            />
+            <i class="fa fa-eye-slash show_pass"></i>
+            <i class="hidden fa-eye show_pass"></i>
+            <p class="error"></p>
+          </div>
+          <div class="terms-container">
+            <input type="checkbox" id="checkingterms" required />
+            <label class="termsandcondition" for="checkingterms">
+              Accept Terms and Condition
+            </label>
+          </div>
+          <input class="btn" type="submit" value="Sign Up" />
+        </div>
+        <footer>
+          <span>Already have a Account?</span>
+          <button type="button" class="bttn login">Login</button>
+        </footer>
+      </div>
+      <!-- Login Form  -->
+      <div class="inner-container sign-in">
+        <header>
+          <h1 class="form-title">Sign In</h1>
+          <p>Login now</p>
+        </header>
+        <div class="form-body">
+          <div class="input_forms">
+            <i class="fa fa-user icon"></i>
+            <label for="fullname">Full Name</label>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              id="full_name"
+              required
+            />
+            <p class="error"></p>
+          </div>
+          <div class="input_forms">
+            <i class="fa fa-envelope icon"></i>
+            <label for="Email">Your Email</label>
+            <input
+              type="text"
+              placeholder="Enter your Email"
+              id="email_id"
+              required
+            />
+            <p class="error"></p>
+          </div>
+          <div class="input_forms">
+            <i class="fa fa-lock icon"></i>
+            <label for="Password"> Password</label>
+            <input
+              type="text"
+              placeholder="Enter your Password"
+              id="password"
+              required
+            />
+            <i class="fa fa-eye-slash show_pass"></i>
+            <i class="fa-eye hidden show_pass"></i>
+            <p class="error"></p>
+          </div>
+
+          <input class="btn" type="submit" value="Sign in" />
+        </div>
+        <footer>
+          <span>Not a member?</span>
+          <button type="button" class="bttn sign_up_acc">Signup Now!</button>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
