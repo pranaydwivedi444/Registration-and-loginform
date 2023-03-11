@@ -34,7 +34,7 @@ When the user submits the Sign In form, the JavaScript code checks that both the
 The web page is styled using CSS and Font Awesome. The CSS file contains various styles for the form, input fields, labels, and buttons. The Font Awesome icons are used to style the input fields.
 
 ## Credits
-The web page was created by [Your Name] and uses the following resources:
+The web page was created by me and uses the following resources:
 
 ## Font Awesome
 Email validation regular expression
